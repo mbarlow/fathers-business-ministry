@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  pocketbase:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pocketbase
+    ports:
+      - "8090:8090"
+    volumes:
+      - ./pb_data:/pb_data
+    command: ["/pb/pocketbase", "serve", "--http=0.0.0.0:8090"]
