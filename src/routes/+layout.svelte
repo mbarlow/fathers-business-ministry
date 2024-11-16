@@ -75,11 +75,12 @@
         <div class="md:hidden bg-gray-700 dark:bg-gray-800">
             <a href="/" class="block px-4 py-2 hover:underline">Home</a>
             <a href="/about" class="block px-4 py-2 hover:underline">About</a>
-            <a href="/giving" class="block px-4 py-2 hover:underline">Giving</a>
+            <a href="/support" class="block px-4 py-2 hover:underline"
+                >Support</a
+            >
             <a href="/projects" class="block px-4 py-2 hover:underline"
                 >Projects</a
             >
-            <a href="/book" class="block px-4 py-2 hover:underline">Book</a>
         </div>
     {/if}
 </nav>
