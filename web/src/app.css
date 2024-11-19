@@ -4,3 +4,9 @@
 
 /* Skeleton CSS variables and resets */
 @import "@skeletonlabs/skeleton/styles/all.css";
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgba(255, 255, 255, 0.5);
+}

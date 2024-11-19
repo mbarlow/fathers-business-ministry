@@ -31,17 +31,16 @@
                             <h1 class="text-white font-semibold text-5xl">
                                 พระเยซูทรงเป็นพระเจ้าที่แท้จริง
                             </h1>
-                            <p class="mt-4 text-lg text-blueGray-200">
-                                หัวใจของประเทศไทยจากอเมริกา
-                                เราต้องการเชื่อมต่อและแบ่งปันความจริงเกี่ยวกับพระเจ้าที่แท้จริงองค์เดียวกับคุณ!
-                            </p>
-                            <p class="mt-4 text-lg text-blueGray-200">&nbsp;</p>
-                            <p class="mt-4 text-lg text-blueGray-200">&nbsp;</p>
-                            <p class="mt-4 text-lg text-blueGray-200">
+                            <p
+                                class="mt-4 text-2xl text-white p-2"
+                                style="backdrop-filter: sepia(80%); border-top-left-radius: 10px; border-bottom-right-radius: 10px;"
+                            >
                                 "But seek first the kingdom of God and His
                                 righteousness, and all these things shall be
                                 added to you." — Matthew 6:33
                             </p>
+                            <p class="mt-4 text-lg text-blueGray-200">&nbsp;</p>
+                            <p class="mt-4 text-lg text-blueGray-200">&nbsp;</p>
                         </div>
                     </div>
                 </div>

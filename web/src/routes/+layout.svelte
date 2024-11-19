@@ -15,19 +15,31 @@
 >
     <div class="container mx-auto flex items-center justify-between">
         <div
-            class="text-xl text-gray-200 p-1"
-            style="background-color:rgba(255,255,255,.05); border-radius: .25rem;"
+            class="text-xl text-white p-1"
+            style="background-color:rgba(255,255,255,.05); border-radius: .25rem;
+            box-shadow:
+                 1px 2px 2px hsl(220deg 60% 50% / 0.333),
+                 2px 4px 4px hsl(220deg 60% 50% / 0.333),
+                 3px 6px 6px hsl(220deg 60% 50% / 0.333);
+            border: 1px solid rgba(255,255,255,0.1)
+            "
         >
             FATHER'S BUSINESS MINISTRY
         </div>
         <div
             class="hidden md:flex space-x-4 p-2"
-            style="background-color:rgba(255,255,255,.05); border-radius: .25rem;"
+            style="background-color:rgba(255,255,255,.05); border-radius: .25rem;
+            box-shadow:
+                 1px 2px 2px hsl(220deg 60% 50% / 0.333),
+                 2px 4px 4px hsl(220deg 60% 50% / 0.333),
+                 3px 6px 6px hsl(220deg 60% 50% / 0.333);
+            border: 1px solid rgba(255,255,255,0.1)
+            "
         >
-            <a href="/" class="hover:underline">Home</a>
-            <a href="/media" class="hover:underline">Listen</a>
-            <a href="/support" class="hover:underline">Support</a>
-            <a href="/about" class="hover:underline">About</a>
+            <a href="/" class="hover:underline">HOME</a>
+            <a href="/media" class="hover:underline">LISTEN</a>
+            <a href="/support" class="hover:underline">SUPPORT</a>
+            <a href="/about" class="hover:underline">ABOUT</a>
         </div>
         <div class="md:hidden flex items-center">
             <button on:click={toggleMenu}>
@@ -51,9 +63,7 @@
     {#if menuOpen}
         <div class="md:hidden bg-gray-700 dark:bg-gray-800">
             <a href="/" class="block px-4 py-2 hover:underline">Home</a>
-            <a href="/projects" class="block px-4 py-2 hover:underline"
-                >Project</a
-            >
+            <a href="/media" class="block px-4 py-2 hover:underline">Project</a>
             <a href="/support" class="block px-4 py-2 hover:underline"
                 >Support</a
             >
