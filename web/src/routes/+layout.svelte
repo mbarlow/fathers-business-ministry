@@ -14,8 +14,16 @@
     class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg text-white"
 >
     <div class="container mx-auto flex items-center justify-between">
-        <div class="text-xl text-gray-700">FATHER'S BUSINESS MINISTRY</div>
-        <div class="hidden md:flex space-x-4">
+        <div
+            class="text-xl text-gray-200 p-1"
+            style="background-color:rgba(255,255,255,.05); border-radius: .25rem;"
+        >
+            FATHER'S BUSINESS MINISTRY
+        </div>
+        <div
+            class="hidden md:flex space-x-4 p-2"
+            style="background-color:rgba(255,255,255,.05); border-radius: .25rem;"
+        >
             <a href="/" class="hover:underline">Home</a>
             <a href="/media" class="hover:underline">Listen</a>
             <a href="/support" class="hover:underline">Support</a>

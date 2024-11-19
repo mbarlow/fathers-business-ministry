@@ -233,7 +233,7 @@
                         <img
                             alt="..."
                             class="max-w-full rounded-lg shadow-lg"
-                            src="https://images.unsplash.com/photo-1698305429092-914783297c83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                            src="src/assets/bg5.webp"
                         />
                     </div>
                     <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
