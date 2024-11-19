@@ -16,4 +16,3 @@
         <p class="text-lg text-white">hi</p>
     </div>
 </section>
-dsfasdf
