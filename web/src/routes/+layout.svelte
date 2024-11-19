@@ -14,10 +14,10 @@
     class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg text-white"
 >
     <div class="container mx-auto flex items-center justify-between">
-        <div class="text-xl font-bold">Father's Business Ministry</div>
+        <div class="text-xl text-gray-700">FATHER'S BUSINESS MINISTRY</div>
         <div class="hidden md:flex space-x-4">
             <a href="/" class="hover:underline">Home</a>
-            <a href="/projects" class="hover:underline">Projects</a>
+            <a href="/media" class="hover:underline">Listen</a>
             <a href="/support" class="hover:underline">Support</a>
             <a href="/about" class="hover:underline">About</a>
         </div>
