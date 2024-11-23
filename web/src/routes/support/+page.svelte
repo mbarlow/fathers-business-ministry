@@ -15,6 +15,7 @@
                 class="absolute top-0 w-full h-full bg-center bg-cover"
                 style="
           background-image: url('/src/assets/bg2.webp');
+
         "
             >
                 <span
